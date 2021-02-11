@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "message": "I am the Crunk",
+      "attention": true,
+      "tech": "The Crunk",
+      "date": "2021-02-11T16:39:43.955Z",
+      "id": 1
+    },
+    {
+      "message": "Changed network card in server 007",
+      "attention": false,
+      "tech": "Tucker McTuckerson",
+      "date": "2021-02-11T16:40:01.632Z",
+      "id": 2
+    },
+    {
+      "message": "Hard Drive failure at workstation 026",
+      "attention": true,
+      "tech": "Leaf Phoenix",
+      "date": "2021-02-11T16:40:22.116Z",
+      "id": 3
+    },
+    {
+      "message": "1122 Wireless down",
+      "attention": true,
+      "tech": "Tucker McTuckerson",
+      "date": "2021-02-11T16:40:37.759Z",
+      "id": 4
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "Tucker",
+      "lastName": "McTuckerson"
+    },
+    {
+      "id": 2,
+      "firstName": "Leaf",
+      "lastName": "Phoenix"
+    },
+    {
+      "id": 3,
+      "firstName": "The",
+      "lastName": "Crunk"
+    },
+    {
+      "firstName": "Leviathan",
+      "lastName": "Jones",
+      "id": 4
+    }
+  ]
+}
