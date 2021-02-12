@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
+import { addTech } from '../../actions/techActions';
 import M from 'materialize-css/dist/js/materialize.min.js';
 
-export const AddTechModal = () => {
+const AddTechModal = ({ addTech }) => {
 	const [firstName, setFirstName] = useState('');
 	const [lastName, setLastName] = useState('');
 
@@ -12,7 +15,16 @@ export const AddTechModal = () => {
 				sanitize: true,
 			});
 		} else {
-			console.log(firstName, lastName);
+			addTech({
+				firstName,
+				lastName,
+			});
+
+			M.toast({
+				html: `${firstName} ${lastName} was added as a tech`,
+				sanitize: true,
+			});
+
 			setFirstName('');
 			setLastName('');
 		}
@@ -63,3 +75,9 @@ export const AddTechModal = () => {
 		</div>
 	);
 };
+
+AddTechModal.propTypes = {
+	addTech: PropTypes.func.isRequired,
+};
+
+export default connect(null, { addTech })(AddTechModal);

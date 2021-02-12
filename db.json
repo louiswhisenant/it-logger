@@ -1,18 +1,11 @@
 {
   "logs": [
     {
-      "message": "I am the Crunk",
-      "attention": true,
-      "tech": "The Crunk",
-      "date": "2021-02-11T16:39:43.955Z",
-      "id": 1
-    },
-    {
+      "id": 2,
       "message": "Changed network card in server 007",
       "attention": false,
-      "tech": "Tucker McTuckerson",
-      "date": "2021-02-11T16:40:01.632Z",
-      "id": 2
+      "tech": "Leviathan Jones",
+      "date": "2021-02-12T14:20:02.837Z"
     },
     {
       "message": "Hard Drive failure at workstation 026",
@@ -27,6 +20,13 @@
       "tech": "Tucker McTuckerson",
       "date": "2021-02-11T16:40:37.759Z",
       "id": 4
+    },
+    {
+      "id": 5,
+      "message": "I AM the CRUNK",
+      "attention": false,
+      "tech": "The Crunk",
+      "date": "2021-02-11T23:34:13.103Z"
     }
   ],
   "techs": [
@@ -49,6 +49,11 @@
       "firstName": "Leviathan",
       "lastName": "Jones",
       "id": 4
+    },
+    {
+      "firstName": "Dat",
+      "lastName": "Brrrrrraaaaauuuuuuuuuuuwwwwnn",
+      "id": 5
     }
   ]
 }
